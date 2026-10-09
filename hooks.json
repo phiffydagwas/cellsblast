@@ -1,0 +1,10 @@
+{
+  "_note": "Where the mod hooks into Dead Cells. Fill after reading the game's files and choosing a loader.",
+  "rows": [
+    {"id": "hook_player_spawn", "target": "hero creation", "action": "swap to hero_anton", "verified": false},
+    {"id": "hook_input", "target": "input handling", "action": "route to moves.json", "verified": false},
+    {"id": "hook_run_start", "target": "run start", "action": "start sys_happy_hour_timer", "verified": false},
+    {"id": "hook_audio", "target": "sound playback", "action": "map to audio.json", "verified": false},
+    {"id": "hook_hud", "target": "HUD", "action": "add hud_timer", "verified": false}
+  ]
+}

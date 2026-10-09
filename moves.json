@@ -1,0 +1,8 @@
+{
+  "_note": "Anton's kit. Each row generates one move handler. Damage/cooldowns are unfilled until Dead Cells' own numbers are read.",
+  "rows": [
+    {"id": "move_punch", "input": "attack", "anim": "punch", "sfx": "sfx_punch", "damage": null, "knockback": null, "cooldown_ms": null, "combo_chain": ["move_punch"], "explosion_on_hit": false, "verified": false},
+    {"id": "move_dash", "input": "dash", "anim": "dash", "sfx": "sfx_dash", "distance": null, "iframes_ms": null, "cooldown_ms": null, "damages_on_contact": true, "verified": false},
+    {"id": "move_slam", "input": "attack+down (airborne)", "anim": "punch", "sfx": "sfx_explosion", "damage": null, "explosion": "fx_explosion_small", "cooldown_ms": null, "verified": false}
+  ]
+}

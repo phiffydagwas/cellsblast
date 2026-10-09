@@ -1,0 +1,8 @@
+{
+  "_note": "Game systems the mashup touches.",
+  "rows": [
+    {"id": "sys_happy_hour_timer", "type": "run_timer", "start": "run_start", "duration_s": null, "on_expire": null, "hud_element": "hud_timer", "pauses_in": ["menus","cutscenes"], "verified": false},
+    {"id": "sys_explosions", "type": "effect", "trigger": ["move_slam","enemy_kill"], "radius": null, "damages_player": false, "fx": "fx_explosion_small", "sfx": "sfx_explosion", "verified": false},
+    {"id": "sys_movement_boost", "type": "modifier", "while": "timer_active", "speed_mult": null, "verified": false}
+  ]
+}

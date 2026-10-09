@@ -1,0 +1,6 @@
+{
+  "_note": "Anton replaces the Beheaded as the player character.",
+  "rows": [
+    {"id": "hero_anton", "replaces": "Beheaded", "display_name": "Anton", "sprite_source": "antonblast:player_sprites", "sprite_format": null, "animations": ["idle","run","jump","fall","punch","dash","hurt","death"], "hitbox_w": null, "hitbox_h": null, "base_hp": null, "base_speed": null, "start_biome": "Prisoners' Quarters", "start_weapon": null, "verified": false}
+  ]
+}

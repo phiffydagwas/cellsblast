@@ -1,0 +1,9 @@
+{
+  "_note": "Read from the player's ANTONBLAST install at runtime; nothing is shipped in the mod.",
+  "rows": [
+    {"id": "music_run", "kind": "music", "source_file": null, "plays_in": "run", "replaces": "Dead Cells biome music", "verified": false},
+    {"id": "sfx_punch", "kind": "sfx", "source_file": null, "verified": false},
+    {"id": "sfx_dash", "kind": "sfx", "source_file": null, "verified": false},
+    {"id": "sfx_explosion", "kind": "sfx", "source_file": null, "verified": false}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "_note": "Source of truth for which games are in the mashup. null = unfilled, verified=false = not yet checked against the real install.",
+  "rows": [
+    {"id": "dead-cells", "role": "primary", "slug": "dead-cells", "engine": "other (Heaps/Haxe, to confirm)", "loader": null, "loader_melty_installed": false, "install_folder": null, "version": null, "verified": false},
+    {"id": "antonblast", "role": "companion", "slug": "custom-antonblast", "engine": null, "loader": null, "install_folder": null, "version": null, "folder_token": "{game:custom-antonblast}", "verified": false}
+  ],
+  "together": false,
+  "multiplayer": null
+}
